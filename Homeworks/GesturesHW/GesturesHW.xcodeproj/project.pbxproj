@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681FDA231B45D56100CED70D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FDA221B45D56100CED70D /* main.m */; };
+		681FDA261B45D56100CED70D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FDA251B45D56100CED70D /* AppDelegate.m */; };
+		681FDA291B45D56100CED70D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FDA281B45D56100CED70D /* ViewController.m */; };
+		681FDA2C1B45D56100CED70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681FDA2A1B45D56100CED70D /* Main.storyboard */; };
+		681FDA2E1B45D56100CED70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681FDA2D1B45D56100CED70D /* Assets.xcassets */; };
+		681FDA311B45D56200CED70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681FDA2F1B45D56200CED70D /* LaunchScreen.storyboard */; };
+		681FDA3C1B45D56200CED70D /* GesturesHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FDA3B1B45D56200CED70D /* GesturesHWTests.m */; };
+		681FDA471B45D56200CED70D /* GesturesHWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FDA461B45D56200CED70D /* GesturesHWUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681FDA381B45D56200CED70D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681FDA161B45D56100CED70D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681FDA1D1B45D56100CED70D;
+			remoteInfo = GesturesHW;
+		};
+		681FDA431B45D56200CED70D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681FDA161B45D56100CED70D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681FDA1D1B45D56100CED70D;
+			remoteInfo = GesturesHW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681FDA1E1B45D56100CED70D /* GesturesHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681FDA221B45D56100CED70D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		681FDA241B45D56100CED70D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		681FDA251B45D56100CED70D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		681FDA271B45D56100CED70D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		681FDA281B45D56100CED70D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		681FDA2B1B45D56100CED70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681FDA2D1B45D56100CED70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		681FDA301B45D56200CED70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		681FDA321B45D56200CED70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681FDA371B45D56200CED70D /* GesturesHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681FDA3B1B45D56200CED70D /* GesturesHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesHWTests.m; sourceTree = "<group>"; };
+		681FDA3D1B45D56200CED70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681FDA421B45D56200CED70D /* GesturesHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681FDA461B45D56200CED70D /* GesturesHWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesHWUITests.m; sourceTree = "<group>"; };
+		681FDA481B45D56200CED70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681FDA1B1B45D56100CED70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FDA341B45D56200CED70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FDA3F1B45D56200CED70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681FDA151B45D56100CED70D = {
+			isa = PBXGroup;
+			children = (
+				681FDA201B45D56100CED70D /* GesturesHW */,
+				681FDA3A1B45D56200CED70D /* GesturesHWTests */,
+				681FDA451B45D56200CED70D /* GesturesHWUITests */,
+				681FDA1F1B45D56100CED70D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681FDA1F1B45D56100CED70D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681FDA1E1B45D56100CED70D /* GesturesHW.app */,
+				681FDA371B45D56200CED70D /* GesturesHWTests.xctest */,
+				681FDA421B45D56200CED70D /* GesturesHWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681FDA201B45D56100CED70D /* GesturesHW */ = {
+			isa = PBXGroup;
+			children = (
+				681FDA241B45D56100CED70D /* AppDelegate.h */,
+				681FDA251B45D56100CED70D /* AppDelegate.m */,
+				681FDA271B45D56100CED70D /* ViewController.h */,
+				681FDA281B45D56100CED70D /* ViewController.m */,
+				681FDA2A1B45D56100CED70D /* Main.storyboard */,
+				681FDA2D1B45D56100CED70D /* Assets.xcassets */,
+				681FDA2F1B45D56200CED70D /* LaunchScreen.storyboard */,
+				681FDA321B45D56200CED70D /* Info.plist */,
+				681FDA211B45D56100CED70D /* Supporting Files */,
+			);
+			path = GesturesHW;
+			sourceTree = "<group>";
+		};
+		681FDA211B45D56100CED70D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681FDA221B45D56100CED70D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681FDA3A1B45D56200CED70D /* GesturesHWTests */ = {
+			isa = PBXGroup;
+			children = (
+				681FDA3B1B45D56200CED70D /* GesturesHWTests.m */,
+				681FDA3D1B45D56200CED70D /* Info.plist */,
+			);
+			path = GesturesHWTests;
+			sourceTree = "<group>";
+		};
+		681FDA451B45D56200CED70D /* GesturesHWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				681FDA461B45D56200CED70D /* GesturesHWUITests.m */,
+				681FDA481B45D56200CED70D /* Info.plist */,
+			);
+			path = GesturesHWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681FDA1D1B45D56100CED70D /* GesturesHW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681FDA4B1B45D56200CED70D /* Build configuration list for PBXNativeTarget "GesturesHW" */;
+			buildPhases = (
+				681FDA1A1B45D56100CED70D /* Sources */,
+				681FDA1B1B45D56100CED70D /* Frameworks */,
+				681FDA1C1B45D56100CED70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GesturesHW;
+			productName = GesturesHW;
+			productReference = 681FDA1E1B45D56100CED70D /* GesturesHW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681FDA361B45D56200CED70D /* GesturesHWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681FDA4E1B45D56200CED70D /* Build configuration list for PBXNativeTarget "GesturesHWTests" */;
+			buildPhases = (
+				681FDA331B45D56200CED70D /* Sources */,
+				681FDA341B45D56200CED70D /* Frameworks */,
+				681FDA351B45D56200CED70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681FDA391B45D56200CED70D /* PBXTargetDependency */,
+			);
+			name = GesturesHWTests;
+			productName = GesturesHWTests;
+			productReference = 681FDA371B45D56200CED70D /* GesturesHWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		681FDA411B45D56200CED70D /* GesturesHWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681FDA511B45D56200CED70D /* Build configuration list for PBXNativeTarget "GesturesHWUITests" */;
+			buildPhases = (
+				681FDA3E1B45D56200CED70D /* Sources */,
+				681FDA3F1B45D56200CED70D /* Frameworks */,
+				681FDA401B45D56200CED70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681FDA441B45D56200CED70D /* PBXTargetDependency */,
+			);
+			name = GesturesHWUITests;
+			productName = GesturesHWUITests;
+			productReference = 681FDA421B45D56200CED70D /* GesturesHWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681FDA161B45D56100CED70D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Artem Belkov";
+				TargetAttributes = {
+					681FDA1D1B45D56100CED70D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CT884K7983;
+					};
+					681FDA361B45D56200CED70D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 681FDA1D1B45D56100CED70D;
+					};
+					681FDA411B45D56200CED70D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 681FDA1D1B45D56100CED70D;
+					};
+				};
+			};
+			buildConfigurationList = 681FDA191B45D56100CED70D /* Build configuration list for PBXProject "GesturesHW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681FDA151B45D56100CED70D;
+			productRefGroup = 681FDA1F1B45D56100CED70D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681FDA1D1B45D56100CED70D /* GesturesHW */,
+				681FDA361B45D56200CED70D /* GesturesHWTests */,
+				681FDA411B45D56200CED70D /* GesturesHWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681FDA1C1B45D56100CED70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FDA311B45D56200CED70D /* LaunchScreen.storyboard in Resources */,
+				681FDA2E1B45D56100CED70D /* Assets.xcassets in Resources */,
+				681FDA2C1B45D56100CED70D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FDA351B45D56200CED70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FDA401B45D56200CED70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681FDA1A1B45D56100CED70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FDA291B45D56100CED70D /* ViewController.m in Sources */,
+				681FDA261B45D56100CED70D /* AppDelegate.m in Sources */,
+				681FDA231B45D56100CED70D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FDA331B45D56200CED70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FDA3C1B45D56200CED70D /* GesturesHWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FDA3E1B45D56200CED70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FDA471B45D56200CED70D /* GesturesHWUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681FDA391B45D56200CED70D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681FDA1D1B45D56100CED70D /* GesturesHW */;
+			targetProxy = 681FDA381B45D56200CED70D /* PBXContainerItemProxy */;
+		};
+		681FDA441B45D56200CED70D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681FDA1D1B45D56100CED70D /* GesturesHW */;
+			targetProxy = 681FDA431B45D56200CED70D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681FDA2A1B45D56100CED70D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681FDA2B1B45D56100CED70D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		681FDA2F1B45D56200CED70D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681FDA301B45D56200CED70D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681FDA491B45D56200CED70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681FDA4A1B45D56200CED70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681FDA4C1B45D56200CED70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GesturesHW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artembelkov.GesturesHW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		681FDA4D1B45D56200CED70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GesturesHW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artembelkov.GesturesHW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		681FDA4F1B45D56200CED70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GesturesHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artembelkov.GesturesHWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GesturesHW.app/GesturesHW";
+			};
+			name = Debug;
+		};
+		681FDA501B45D56200CED70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GesturesHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artembelkov.GesturesHWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GesturesHW.app/GesturesHW";
+			};
+			name = Release;
+		};
+		681FDA521B45D56200CED70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GesturesHWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artembelkov.GesturesHWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GesturesHW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		681FDA531B45D56200CED70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GesturesHWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artembelkov.GesturesHWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GesturesHW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681FDA191B45D56100CED70D /* Build configuration list for PBXProject "GesturesHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FDA491B45D56200CED70D /* Debug */,
+				681FDA4A1B45D56200CED70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681FDA4B1B45D56200CED70D /* Build configuration list for PBXNativeTarget "GesturesHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FDA4C1B45D56200CED70D /* Debug */,
+				681FDA4D1B45D56200CED70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681FDA4E1B45D56200CED70D /* Build configuration list for PBXNativeTarget "GesturesHWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FDA4F1B45D56200CED70D /* Debug */,
+				681FDA501B45D56200CED70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681FDA511B45D56200CED70D /* Build configuration list for PBXNativeTarget "GesturesHWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FDA521B45D56200CED70D /* Debug */,
+				681FDA531B45D56200CED70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 681FDA161B45D56100CED70D /* Project object */;
+}

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="PingFangWatch.ttc">
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiTC-Light</string>
+            <string>STHeitiSC-Medium</string>
+            <string>STHeitiSC-Medium</string>
+            <string>STHeitiSC-Medium</string>
+            <string>STHeitiSC-Medium</string>
+            <string>STHeitiSC-Medium</string>
+            <string>STHeitiSC-Medium</string>
+            <string>STHeitiSC-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jfT-0B-2Ez">
+                                <rect key="frame" x="6" y="174" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2376490029032112" green="0.76207923164343438" blue="0.61882639187135147" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KQs-Ql-zTi"/>
+                                    <action selector="clearValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kmZ-jL-xYR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ULF-g8-17D">
+                                <rect key="frame" x="6" y="252" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wSy-mE-7dw"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vhg-wJ-iZK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2ye-Wa-JXt">
+                                <rect key="frame" x="6" y="330" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i4m-cM-ZBO"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZa-xh-uPF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rdS-KE-1AP">
+                                <rect key="frame" x="6" y="408" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h6L-JY-uwk"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E4y-Rh-D8J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U1N-zf-c90">
+                                <rect key="frame" x="6" y="486" width="152" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aB0-0W-YC7"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAO-bb-Cqh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QKY-CN-FMh">
+                                <rect key="frame" x="162" y="486" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title=",">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xog-en-7gi"/>
+                                    <action selector="pointMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="npi-Bl-xsH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ldt-pR-0Va">
+                                <rect key="frame" x="84" y="408" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQP-r2-cSt"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2zv-1B-tjG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8u2-qV-yYh">
+                                <rect key="frame" x="84" y="330" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TU4-KX-cog"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30i-Qt-wX7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aO6-Xc-nyu">
+                                <rect key="frame" x="162" y="330" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6A-gZ-yR9"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2T-T8-FIj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="-2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6mO-35-KQY">
+                                <rect key="frame" x="240" y="330" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WuJ-r6-QdH"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2q-8a-1Ps"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b4y-Kj-ziu">
+                                <rect key="frame" x="84" y="252" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5J-aj-RT9"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VbA-iz-n8h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UXo-Hb-ilM">
+                                <rect key="frame" x="162" y="252" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BIh-IS-3B0"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NV3-sO-Yjh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="-3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4KQ-2x-VHc">
+                                <rect key="frame" x="240" y="252" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rye-K7-wiI"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1x-3M-22W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i3Y-Cb-WK8">
+                                <rect key="frame" x="84" y="174" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2376490029032112" green="0.76207923164343438" blue="0.61882639187135147" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="+/-">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNegativeValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xg-wD-58Y"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cy-lW-9lC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kDj-ms-AgT">
+                                <rect key="frame" x="162" y="174" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2376490029032112" green="0.76207923164343438" blue="0.61882639187135147" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="%">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X75-Yl-3sY"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ouE-11-wz7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="-4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="q7N-sT-pvj">
+                                <rect key="frame" x="240" y="174" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="÷">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ydk-h2-Gd0"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2BO-Kq-6He"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fgm-iU-49M">
+                                <rect key="frame" x="162" y="408" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zl0-0c-qo3"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XMs-lL-oMz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T7i-bk-yhr">
+                                <rect key="frame" x="240" y="408" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htY-Ln-Lgp"/>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M0t-EW-lAI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fpt-LF-2UT">
+                                <rect key="frame" x="240" y="486" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="30"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ce-TF-qMc"/>
+                                    <action selector="calculateEquation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Q4-Hd-4Sz"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="Jpr-b2-cUd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Sz-ds-n1r">
+                                        <rect key="frame" x="8" y="104" width="304" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G92-kA-TrE">
+                                        <rect key="frame" x="293" y="84" width="27" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="26"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" id="sVb-iF-3FT">
+                                        <rect key="frame" x="8" y="39" width="124" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WGu-ru-5Fn">
+                                                <rect key="frame" x="4" y="4" width="36" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="15"/>
+                                                <state key="normal" title=",0">
+                                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kro-XC-MU5"/>
+                                                    <action selector="setAmountAfterDecimalCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3W-2E-rIy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UlW-s9-tja">
+                                                <rect key="frame" x="44" y="4" width="36" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="15"/>
+                                                <state key="normal" title=",3">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sji-EK-Bdj"/>
+                                                    <action selector="setAmountAfterDecimalCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q1i-vA-RvA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vCe-PQ-zyw">
+                                                <rect key="frame" x="84" y="4" width="36" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="15"/>
+                                                <state key="normal" title=",5">
+                                                    <color key="titleColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="anyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YvU-76-DBp"/>
+                                                    <action selector="setAmountAfterDecimalCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOY-HA-5nj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.34594086509999999" green="1" blue="0.76869170129999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount after decimal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CUl-fe-OMa">
+                                        <rect key="frame" x="8" y="18" width="124" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="11"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RL8-5A-Cl2">
+                                        <rect key="frame" x="153" y="51" width="159" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="33"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34594086508386301" green="1" blue="0.7686917012975707" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="currentValueLabel" destination="4Sz-ds-n1r" id="Bog-Yg-Smi"/>
+                        <outlet property="lastValueLabel" destination="RL8-5A-Cl2" id="45p-du-6p4"/>
+                        <outlet property="operationLabel" destination="G92-kA-TrE" id="iZ1-rf-Pzz"/>
+                        <outletCollection property="amountAfterDecimalCountButtons" destination="WGu-ru-5Fn" id="oPy-FD-ZAX"/>
+                        <outletCollection property="amountAfterDecimalCountButtons" destination="UlW-s9-tja" id="AsL-oW-8ui"/>
+                        <outletCollection property="amountAfterDecimalCountButtons" destination="vCe-PQ-zyw" id="HkO-KZ-pYK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="167" y="349"/>
+        </scene>
+    </scenes>
+</document>

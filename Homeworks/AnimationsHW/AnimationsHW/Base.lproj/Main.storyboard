@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="6rY-Ew-7Tu">
+                                <rect key="frame" x="20" y="20" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="cwe-bj-HpU">
+                                <rect key="frame" x="20" y="448" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.4431372549" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="yu8-lJ-ZIK">
+                                <rect key="frame" x="316" y="20" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="opE-Nh-ahu">
+                                <rect key="frame" x="611" y="20" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76331830020000002" green="0.2580845356" blue="0.17461749909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="zDo-zh-ik8">
+                                <rect key="frame" x="20" y="876" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40780702229999999" green="0.3980541527" blue="0.78390461209999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Aww-NA-HET">
+                                <rect key="frame" x="316" y="876" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7011802197" green="0.86277890209999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Bhx-5t-pwd">
+                                <rect key="frame" x="611" y="876" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99811404940000004" green="0.90160006280000005" blue="0.55435240269999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Ydb-tF-Pgd">
+                                <rect key="frame" x="611" y="448" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94901961089999998" green="0.5647059083" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="views" destination="6rY-Ew-7Tu" id="wVL-fl-sCc"/>
+                        <outletCollection property="views" destination="yu8-lJ-ZIK" id="Lc6-jJ-R69"/>
+                        <outletCollection property="views" destination="opE-Nh-ahu" id="0XV-hp-e0h"/>
+                        <outletCollection property="views" destination="Ydb-tF-Pgd" id="K6i-GI-YfE"/>
+                        <outletCollection property="views" destination="Bhx-5t-pwd" id="HcH-Zf-6Ka"/>
+                        <outletCollection property="views" destination="Aww-NA-HET" id="2vB-Vo-cZe"/>
+                        <outletCollection property="views" destination="zDo-zh-ik8" id="c9m-pG-4CT"/>
+                        <outletCollection property="views" destination="cwe-bj-HpU" id="CMU-rY-0Oh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1004" y="505"/>
+        </scene>
+    </scenes>
+</document>
